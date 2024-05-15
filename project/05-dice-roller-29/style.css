@@ -1,0 +1,48 @@
+#container {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+button {
+	font-size: 1.5rem;
+	background-image: linear-gradient(
+		to right,
+		#ff6e7f 0%,
+		#bfe9ff 51%,
+		#ff6e7f 100%
+	);
+	padding: 10px 20px;
+	text-align: center;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+button:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+input {
+	font-size: 2rem;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#diceResult {
+	margin: 25px;
+}
+
+#diceImages img {
+	width: 150px;
+	margin: 0 5px;
+}
